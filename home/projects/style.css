@@ -1,0 +1,77 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,100), 1px 1px 1px rgba(0,0,0,100);
+  animation: fadein 1s;
+}
+pre {
+  text-align: center;
+  font-family: monospace;
+}
+p {
+  text-align: center;
+  font-family: monospace;
+}
+#center {               
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);    
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  font-size: 28px;
+}
+
+box {
+  /*Creates a box*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(51, 51, 51, 0);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f200;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d00;
+  color: white;
+}
